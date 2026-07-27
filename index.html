@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    spacing: {
+                        13: '3.25rem'
+                    },
+                    fontFamily: {
+                        Oswald: ['Oswald']
+                    },
+                    colors: {
+                        wpu: '#bada55',
+                        kopi: '#c0fee',
+                    },
+                },
+            },
+        };
+    </script>
+    <style type="text/tailwindcss"></style>
+</head>
+<body>
+    <h1 class="text-8xl font-Oswald text-center my-10">Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">TailwindLagi</span></h1>
+
+
+<section class="mb-10 bg-gradient-to-r from-indigo-200 via-red-400 to-yellow-300">
+    <h2 class="text-3xl text-center">Spacing</h2>
+    <div class="ml-8 bg-red">Margin</div>
+    <div class="py-8 bg-blue">padding</div>
+</section>
+
+<section class="mb-10 bg-green-200">
+    <h2 class="text-3xl text-center">Sizing</h2>
+    <div class="w-32 h-32 bg-kopi">Kotak 1</div>
+</section>
+
+
+<section class="mb-96 font-Oswald max-w-3xl mx-auto">
+    <h2 class="mb-4 text-4xl font-bold">Belajar mengenai typogarfy pada tailwindcss</h2>
+    <div class="mb-4 text-lg text-gray-500">By <a href="#" class="text-gray-700 font-Oswald text-blue-600">Justin</a> 19 Agustus 2009</div>
+    <blockquote class="mb-4 italic font-Oswald text-xl">"Lorem <a href="#" class="underline font-semibold">ipsum</a> dolor, sit amet consectetur adipisicing elit. Debitis aliquid consequatur perspiciatis deleniti eveniet rem atque alias, tempore ad exercitationem voluptatem sint nobis similique deserunt ab ex consectetur mollitia labore."</blockquote>
+    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste, incidunt sapiente velit assumenda fuga veniam itaque repellat hic aperiam.</p>
+    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa labore dolor cupiditate sequi ratione. Beatae corrupti dolor minus, voluptate blanditiis architecto? Placeat, ut? Quidem fugiat maxime nemo consequuntur esse culpa aperiam a ab sit accusantium quia, perferendis, maiores, tempore aut tempora necessitatibus ullam ex tenetur quasi. Dolorum deserunt adipisci eum.</p>
+</section>
+</body>
+</html>
