@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar tailwind</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -20,7 +20,7 @@
                     },
                     colors: {
                         wpu: '#bada55',
-                        kopi: '#c0fee',
+                        kopi: '#c0ffee',
                     },
                 },
             },
@@ -44,12 +44,23 @@
 </section>
 
 
-<section class="mb-96 font-Oswald max-w-3xl mx-auto">
+<section class="font-Oswald max-w-3xl mx-auto">
     <h2 class="mb-4 text-4xl font-bold">Belajar mengenai typogarfy pada tailwindcss</h2>
     <div class="mb-4 text-lg text-gray-500">By <a href="#" class="text-gray-700 font-Oswald text-blue-600">Justin</a> 19 Agustus 2009</div>
     <blockquote class="mb-4 italic font-Oswald text-xl">"Lorem <a href="#" class="underline font-semibold">ipsum</a> dolor, sit amet consectetur adipisicing elit. Debitis aliquid consequatur perspiciatis deleniti eveniet rem atque alias, tempore ad exercitationem voluptatem sint nobis similique deserunt ab ex consectetur mollitia labore."</blockquote>
     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat iste, incidunt sapiente velit assumenda fuga veniam itaque repellat hic aperiam.</p>
     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa labore dolor cupiditate sequi ratione. Beatae corrupti dolor minus, voluptate blanditiis architecto? Placeat, ut? Quidem fugiat maxime nemo consequuntur esse culpa aperiam a ab sit accusantium quia, perferendis, maiores, tempore aut tempora necessitatibus ullam ex tenetur quasi. Dolorum deserunt adipisci eum.</p>
 </section>
+
+<div class="max-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] overflow-y-scroll bg-fixed" style="background-image: url('https://picsum.photos/1000/600');">
+    <p class="p-5 text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ea pariatur vel excepturi fugiat necessitatibus rem tempore voluptates ullam quam doloribus sapiente vero, corrupti dicta totam. Nemo expedita culpa tempora a sunt excepturi deleniti distinctio aperiam tempore illum id quisquam ipsa commodi est ea maxime eaque iure fugit esse, sit soluta animi provident dolor. Dolores temporibus tempora quasi, itaque ex nobis. Sit ea, non ipsam veritatis nostrum, fugiat similique dolores magni suscipit, facere at nulla libero illum perspiciatis corporis vitae officia quasi dolore ducimus minima maxime quaerat itaque reiciendis! Consequuntur distinctio minima modi fugit, doloribus cumque cum. Libero tempora numquam quas sit, officia quibusdam ullam ipsam. Reprehenderit sapiente minus voluptate voluptatem repellat illo corporis ad necessitatibus ex accusantium labore maiores sed, eaque magnam tempora quia non omnis voluptates suscipit ut fugiat quam quo nulla vero. Est et ea laborum, modi ipsa ullam, aliquam in quos perspiciatis voluptatum dignissimos voluptatibus esse porro hic alias id dolores ex veritatis consectetur natus? Vel iste facilis officiis dignissimos ullam architecto repellendus cumque. Laborum, eligendi? Aut quidem aspernatur culpa asperiores eligendi atque doloribus. Magni cum impedit maxime, porro, ea quas quidem ipsam consequuntur dolor consectetur commodi at perferendis, illum aliquid repudiandae dignissimos ab. Unde, tempore!</p>
+</div>
+
+<div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-full shadow-xl shadow-teal-300 overflow-hidden border-8"  style="background-image: url('hitam.jpg');">
+    <div class="w-full h-full bg-blue-200 mix-blend-overlay"></div>
+</div>
+
+<div class="mb-96"></div>
+
 </body>
 </html>
