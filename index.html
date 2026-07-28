@@ -29,7 +29,7 @@
                     },
                     keyframes: {
                         goyang: {
-                            '0%, 100%': {transform: 'rotate (-3deg)'},
+                            '0%, 100%': {transform: 'rotate(-3deg)'},
                             '50%': {transform: 'rotate(3deg)'},
                         },
                     },
@@ -80,26 +80,24 @@
 <div class="flex justify-center items-center">
     <span class="text-sm text-slate-500 mr-2">Light</span>
     <input type="checkbox" id="toggle" class="hidden peer" />
-    <label for="toggle">
-        <div class="w-10 h-6 bg-slate-500 rounded-full  flex items-center p-1 cursor-pointer peer-checked:bg-sky-500 transition-colors">
-            <div class="w-4 h-4 bg-white rounded-full transition-transfomr duration-300 peer-checked:translate-x-4 toggle-circle"></div>
-        </div>
+    <label for="toggle" class="w-10 h-6 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer peer-checked:bg-sky-500 transition-colors">
+            <div class="toggle-circle w-4 h-4 bg-white rounded-full transition-transform duration-300"></div>
     </label>
     <span class="text-sm text-slate-500 ml-2">Dark</span>
 </div>
 
-<button class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold Oswald block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:group-hover:bg-slate-100 transition-colors">Simpan</button>
+<button class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold Oswald block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:group-hover:bg-slate-100 transition-colors">Simpan</button>
 
-<div class="mac-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-Oswald hover:bg-sky-500 group dark:hover:bg-slate-300">
-    <h5 class="font-bold text-slate-700 text-lg mg-3 group-hover:text-white dark:hover:text-slate-800">my card</h5>
-    <p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 firts-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem modi fuga laudantium dolor, illum, cupiditate fugit nemo voluptatibus, eius dignissimos possimus omnis illo deleniti debitis quidem eveniet sint ad!</p>
+<div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-Oswald hover:bg-sky-500 group dark:hover:bg-slate-300">
+    <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:hover:text-slate-800">my card</h5>
+    <p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem modi fuga laudantium dolor, illum, cupiditate fugit nemo voluptatibus, eius dignissimos possimus omnis illo deleniti debitis quidem eveniet sint ad!</p>
 </div>
 
 <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-Oswald p-5">
     <form action="">
         <label for="email">
             <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">email</span>
-            <input type="email" id="email" placeholder="masukan email..." class="px-3 py-2 border shadow rounded w-full block text-sm placeholder-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus-border-pink-700 peer" />
+            <input type="email" id="email" placeholder="masukan email..." class="px-3 py-2 border shadow rounded w-full block text-sm placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer" />
             <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">email tidak valid</p>
         </label>
     </form>
@@ -137,9 +135,9 @@
 <hr class="my-24 border-t-4" />
 
 <div class="container px-6 font-Oswald max-w-md mx-auto sm:max-w-xl md:max-w-5xl">
-    <h3 class="text-4xl font-bold text-slate-800 sm:text-5-xl md:text-6-xl"><span class="text-sky-500">Jus</span>tin</h3>
+    <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl md:text-6xl"><span class="text-sky-500">Jus</span>tin</h3>
     <img src="hitam.jpg" alt="hitam" class="mt-4 rounded-xl shadow-xl sm:mt-6 sm:h-64 sm:w-full sm:object-cover sm:object-center" />
-    <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4-xl">BELAJAR TAILWIND</h2>
+    <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-8 sm:text-4xl">BELAJAR TAILWIND</h2>
     <p class="mt-2 text-slate-600 sm:mt-4 sm:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae est necessitatibus voluptatem minima ab cum unde! Iure doloremque, corrupti pariatur, unde explicabo illum aut molestias, qui atque deserunt blanditiis illo.</p>
     <div class="mt-4 sm:mt-6">
         <a href="#" class="inline-block px-5 py-3 bg-red-600 text-white rounded-lg shadow-lg uppercase font-semibold tracking-wider text-sm sm:text-base">Klik</a>
